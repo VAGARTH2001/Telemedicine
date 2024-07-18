@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
           <div className="hamburger lg:hidden ml-2 mt-3 cursor-pointer">
-            <img onClick={handleHamburger} className="w-[30px] h-[30px] " src={ isMenuOpen ? close : hamburger} alt="" />
+            <img onClick={handleHamburger} className="w-[20px] h-[30px] " src={ isMenuOpen ? close : hamburger} alt="" />
           </div>
           
       
@@ -42,7 +42,7 @@ const Navbar = () => {
             <li className=" lg:hidden lg:hover:text-blue-800 font-serif hover:text-black lg:pt-0 pt-7  lg:my-0 mt-3 lg:mx-0 mx-7 "><Link to='/' onClick={closeMenu}>Home</Link></li>
                 <li className="lg:hover:text-blue-800 font-serif hover:text-black lg:pt-0 pt-7  lg:my-0 mt-3 lg:mx-0 mx-7 "><Link to='/FindDoctor' onClick={closeMenu}>Find Doctors</Link></li>
                 <li className="lg:hover:text-blue-800 hover:text-black lg:pt-0 pt-7   lg:my-0  mx-7 lg:mx-0 my-4 font-serif" ><Link to='/AIDoctor' onClick={closeMenu}>AI Doctors</Link></li>
-                <li className="lg:hover:text-blue-800 hover:text-black lg:pt-0 pt-7  lg:my-0 mx-7 lg:mx-0 my-4 font-serif"><Link to='/VideoConsultant ' onClick={closeMenu}>Video Consultant</Link></li>
+                <li className="lg:hover:text-blue-800 hover:text-black lg:pt-0 pt-7  lg:my-0 mx-7 lg:mx-0 my-4 font-serif"><Link to='/VideoConsultant ' onClick={closeMenu}>Book Appointment</Link></li>
                 <li className="lg:hover:text-blue-800 hover:text-black  lg:pt-0 pt-7   lg:my-0 mx-7 lg:mx-0 my-4 font-serif"><Link to='/MedicalConsultant' onClick={closeMenu}>Medical Insights</Link></li>
                 <li><button onClick={handlelogin} className=" lg:border font-serif lg:w-[90px] w-[130px] h-10 rounded-lg  tracking-wide  lg:hover:text-white   hover:text-black   lg:-mt-2 mt-3 lg:mx-0 mx-7 lg:hover:bg-blue-800 lg:border-black   ">Sign In</button></li>
                

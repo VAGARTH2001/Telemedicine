@@ -6,6 +6,8 @@ import VideoConsultant from './pages/VideoConsultant'
 import FindDoctor from './pages/FindDoctor'
 import MedicalInsights from './pages/MedicalInsights'
 import Login from './pages/Login'
+import Foot from './Components/Footer/Foot'
+
 
 import Navbar from './Components/Navbar/Navbar'
 
@@ -15,6 +17,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      
       <Navbar/>
 
       <Routes>
@@ -24,11 +27,11 @@ function App() {
         <Route path='/AIDoctor' element = {<AI/>}/>
         <Route path='/VideoConsultant' element = {<VideoConsultant/>}/>
         <Route path='/VideoConsultant/:id' element = {<VideoConsultant/>}/>
-        <Route path='/MedicalInsights' element = {<MedicalInsights/>}/>
+        <Route path='/MedicalConsultant' element = {<MedicalInsights/>}/>
         <Route path='/Login' element = {<Login/>}/>
       </Routes>
 
-    
+      <Foot/>
       
       </BrowserRouter>
 

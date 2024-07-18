@@ -7,6 +7,7 @@ import card4 from "../Components/Assest/card4.png";
 import boy from "../Components/Assest/boy.jpg";
 import query from "../Components/Assest/question.png";
 import { useNavigate } from "react-router-dom";
+import women from "../Components/Assest/women1.jpg"
 
 const Home = () => {
   const navigate = useNavigate();
@@ -79,12 +80,12 @@ const Home = () => {
         </div>
 
         <div className="cards lg:mt-0 mt-5   ">
-          <h1 className="text-blue-900 lg:text-4xl text-2xl font-serif font-extrabold flex justify-center mt-5 ">
+          <h1 className="text-blue-950 lg:text-4xl text-2xl font-serif font-extrabold flex justify-center mt-5 ">
             How can We Help You Today
           </h1>
 
           <div className="cards flex flex-wrap md:gap-7 lg:gap-[2vw] lg:ml-40 ">
-            <div className="card ml-1 mt-5 bg-gray-100 rounded-lg md:ml-0 w-screen lg:ml-[2vw] md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]   flex flex-col">
+            <div className="card ml-7 mt-5 bg-gray-100 rounded-lg md:ml-0 w-[85vw] lg:ml-[2vw] md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]   flex flex-col">
               <img className="w-[100px] ml-5 mt-5" src={card1} alt="" />
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
@@ -96,12 +97,12 @@ const Home = () => {
                 with doctor at your finger tip{" "}
               </p>
 
-              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-8 w-[85vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5 ">
+              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-2 w-[80vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5 ">
                 Video Consultancy
               </div>
             </div>
 
-            <div className="card ml-1 mt-5 bg-gray-100 rounded-lg w-screen lg:ml-[2vw] md:ml-0 md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]  flex flex-col">
+            <div className="card ml-7 mt-5 bg-gray-100 rounded-lg w-[85vw] lg:ml-[2vw] md:ml-0 md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]  flex flex-col">
               <img className="w-[67px] ml-5 mt-5" src={card2} alt="" />
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
@@ -113,12 +114,12 @@ const Home = () => {
                 with doctor at your finger tip{" "}
               </p>
 
-              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-8 w-[85vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5 ">
+              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-2 w-[80vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5 ">
                 Video Consultancy
               </div>
             </div>
 
-            <div className="card ml-1 mt-5 bg-gray-100 rounded-lg w-screen lg:ml-[2vw] md:ml-0 md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]   flex flex-col">
+            <div className="card ml-7 mt-5 bg-gray-100 rounded-lg w-[85vw] lg:ml-[2vw] md:ml-0 md:w-[45vw] h-[330px] lg:w-[23vw] lg:h-[300px]   flex flex-col">
               <img className="w-[67px] ml-5 mt-5" src={card3} alt="" />
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
@@ -130,7 +131,7 @@ const Home = () => {
                 with doctor at your finger tip{" "}
               </p>
 
-              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-8 w-[85vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5  ">
+              <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-2 w-[80vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5  ">
                 Video Consultancy
               </div>
             </div>
@@ -138,17 +139,62 @@ const Home = () => {
         </div>
 
         <div className="process mt-10">
-
           <div className="top lg:flex">
-            <div className="l1 lg:ml-44 lg:w-[30vw] ml-2 text-2xl lg:text-4xl font-serif font-bold tracking-wider text-blue-950">Your Telehealth journey Explained ...</div>
-            <div className="r1 ml-2 lg:mt-0 mt-2 text-blue-950 lg:w-[50vw] font-medium font-serif text-xl  lg:ml-5"> Through our Website users are able to search for doctors by location. We ensure that aou search results are up to date and secure.User are able to find each doctor's contact details practice adress.</div>
-
+            <div className="l1 lg:ml-44 lg:w-[30vw] ml-2 text-2xl lg:text-4xl font-serif font-bold tracking-wider text-blue-950">
+              Your Telehealth journey Explained ...
+            </div>
+            <div className="r1 ml-2 lg:mt-0 mt-2 text-blue-950 lg:w-[50vw] font-medium font-serif text-xl  lg:ml-5">
+              {" "}
+              Through our Website users are able to search for doctors by
+              location. We ensure that aou search results are up to date and
+              secure.User are able to find each doctor's contact details
+              practice adress.
+            </div>
           </div>
-
-
+          <div className="bottom md:flex">
+            <div className="l flex flex-col gap-10 md:gap-16 ml-2 mt-2  md:ml-[10vw] ">
+              <div className="1 flex gap-5">
+                <div className="num w-[50px] h-[50px] border-blue-500 border flex justify-center items-center text-blue-500 font-semibold rounded-full">
+                  1
+                </div>
+                <div className="con flex flex-col">
+                  <p className="1 font-serif font-semibold text-xl text-blue-950">Find Doctor</p>
+                  <p className="2 font-serif">Consult with a doctor within minute</p>
+                </div>
+              </div>
+              <div className="2 flex gap-5">
+                <div className="num w-[50px] h-[50px] border-blue-500 border flex justify-center items-center text-blue-500 font-semibold rounded-full">
+                  2
+                </div>
+                <div className="con flex flex-col">
+                  <p className="1 font-serif font-semibold text-xl text-blue-950">AI Doctor</p>
+                  <p className="2 font-serif">Predict disease according to symptom </p>
+                </div>
+              </div>
+              <div className="3 flex gap-5">
+                <div className="num w-[50px] h-[50px] border-blue-500 border flex justify-center items-center text-blue-500 font-semibold rounded-full">
+                  3
+                </div>
+                <div className="con flex flex-col">
+                  <p className="1 font-serif font-semibold text-xl text-blue-950">Video Consultancy</p>
+                  <p className="2 font-serif">Provides video calling facility </p>
+                </div>
+              </div>
+              <div className="4 flex gap-5">
+                <div className="num w-[50px] h-[50px] border-blue-500 border flex justify-center items-center text-blue-500 font-semibold rounded-full">
+                  4
+                </div>
+                <div className="con flex flex-col">
+                  <p className="1 font-serif font-semibold text-xl text-blue-950">Medical Insights</p>
+                  <p className="2 font-serif">Provides health related videos</p>
+                </div>
+              </div>
+            </div>
+            <div className="r ">
+              <img className="md:w-[49vw] md:h-[27vw] w-[90vw] ml-5 mt-2 md:ml-[10vw]   rounded-lg" src={women} alt="" />
+            </div>
+          </div>
         </div>
-
-
       </div>
     </>
   );
