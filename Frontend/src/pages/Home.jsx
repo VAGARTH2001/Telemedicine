@@ -90,11 +90,11 @@ const Home = () => {
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
               </h1>
-              <p className="ml-5 mt-2 font-serif font-extralight ">
+              <p className="ml-5 mt-2 font-serif font-extralight text-justify ">
                 {" "}
                 Connect with a registered health practitioner via phone or video
-                consultation within a hour . Our aim is to provide consultation
-                with doctor at your finger tip{" "}
+                consultation within a hour  Our aim is to provide consultation
+                with doctor at your finger tip .{" "}
               </p>
 
               <div className="box cursor-pointer text-white flex font-serif justify-center items-center text-lg  mt-5 ml-2 w-[80vw] h-[40px] rounded-lg bg-blue-900 font-semibold md:w-[40vw] lg:w-[20vw] lg:ml-7 lg:mt-5 ">
@@ -107,10 +107,10 @@ const Home = () => {
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
               </h1>
-              <p className="ml-5 mt-2 font-serif font-extralight ">
+              <p className="ml-5 text-justify mt-2 font-serif font-extralight ">
                 {" "}
                 Connect with a registered health practitioner via phone or video
-                consultation within a hour . Our aim is to provide consultation
+                consultation within a hour  Our aim is to provide consultation
                 with doctor at your finger tip{" "}
               </p>
 
@@ -124,7 +124,7 @@ const Home = () => {
               <h1 className="text-2xl text-blue-950 font-medium ml-5 mt-3 font-serif">
                 Video Consultation
               </h1>
-              <p className="ml-5 mt-2 font-serif font-extralight ">
+              <p className="ml-5 text-justify mt-2 font-serif font-extralight ">
                 {" "}
                 Connect with a registered health practitioner via phone or video
                 consultation within a hour . Our aim is to provide consultation
@@ -143,7 +143,7 @@ const Home = () => {
             <div className="l1 lg:ml-44 lg:w-[30vw] ml-2 text-2xl lg:text-4xl font-serif font-bold tracking-wider text-blue-950">
               Your Telehealth journey Explained ...
             </div>
-            <div className="r1 ml-2 lg:mt-0 mt-2 text-blue-950 lg:w-[50vw] font-medium font-serif text-xl  lg:ml-5">
+            <div className="r1 ml-2 lg:mt-0 mt-2 text-justify text-blue-950 lg:w-[50vw] font-medium font-serif text-xl  lg:ml-5">
               {" "}
               Through our Website users are able to search for doctors by
               location. We ensure that aou search results are up to date and

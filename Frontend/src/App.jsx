@@ -7,6 +7,8 @@ import FindDoctor from './pages/FindDoctor'
 import MedicalInsights from './pages/MedicalInsights'
 import Login from './pages/Login'
 import Foot from './Components/Footer/Foot'
+import AppointmentDoctors from './pages/AppointmentDoctors'
+import Profile from './pages/Profile'
 
 
 import Navbar from './Components/Navbar/Navbar'
@@ -26,7 +28,8 @@ function App() {
         <Route path='/FindDoctor/:id' element = {<FindDoctor/>}/>
         <Route path='/AIDoctor' element = {<AI/>}/>
         <Route path='/VideoConsultant' element = {<VideoConsultant/>}/>
-        <Route path='/VideoConsultant/:id' element = {<VideoConsultant/>}/>
+        <Route path='/VideoConsultant/doctors' element = {<AppointmentDoctors/>}/>
+        <Route path='/VideoConsultant/doctors/:id' element = {<Profile/>}/>
         <Route path='/MedicalConsultant' element = {<MedicalInsights/>}/>
         <Route path='/Login' element = {<Login/>}/>
       </Routes>

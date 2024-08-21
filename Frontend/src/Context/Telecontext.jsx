@@ -1,4 +1,4 @@
-import React, { createContext } from 'react'
+import React, { createContext ,useState } from 'react'
 import doctors from "../Components/Assest/doctor"
 
 
@@ -6,9 +6,12 @@ import doctors from "../Components/Assest/doctor"
 
 export const Telecontext = createContext(null);
 const TelecontextProvider = (props) => {
+  const [Tab, setTab] = useState("login")
 
     const contextValue = {
-        doctors
+        doctors,
+        Tab,
+        setTab
     }
 
 
