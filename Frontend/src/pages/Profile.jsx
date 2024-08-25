@@ -16,7 +16,7 @@ const Profile = () => {
 
   const bookappointment = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/payment');
+      const response = await axios.post('https://telemedicine-h9ms.onrender.com/payment');
       if (response && response.status === 200) {
         window.location.href = response.data.url
         console.log(response.data);

@@ -24,7 +24,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/register', {
+      const response = await axios.post('https://telemedicine-h9ms.onrender.com/register', {
         email: formData.email,
         username: formData.username,
         password: formData.password,
