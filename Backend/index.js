@@ -89,7 +89,7 @@ app.post('/payment', async (req, res) => {
         quantity: 1
       }],
       mode: 'payment',
-      success_url: 'http://localhost:5173/',
+      success_url: 'https://telemedicine-1-cssc.onrender.com/',
       cancel_url: 'http://localhost:3000/cancel'
     });
 
