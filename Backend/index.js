@@ -13,7 +13,7 @@ const port = 3000;
 connectDB();
 app.use(cors());
 app.use(express.json());
-mongoose.connect('mongodb://localhost:27017/telemedicine')
+mongoose.connect(process.env.MONGO_URI)
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
@@ -23,17 +23,17 @@ app.post('/register', async (req, res) => {
   const { username, email, password } = req.body;
 
   try {
-      // Hash the password
+      
       const hashedPassword = await bcrypt.hash(password, 10);
 
-      // Create a new user
+      
       const newUser = new User({
           username,
           email,
           password: hashedPassword
       });
 
-      // Save the user to the database
+      
       await newUser.save();
 
       res.status(201).json({ message: 'User registered successfully' });
