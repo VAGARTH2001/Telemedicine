@@ -12,17 +12,16 @@ const Foot = () => {
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
-              href="/"
+              href="/home"
               src="https://medmate.com.au/wp-content/uploads/2021/02/medmate-blue-logo.png"
-              alt="MedMate Logo"
-              
+              alt="Telemedicine Logo"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div className='font-serif'>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">MedMate</Footer.Link>
+                <Footer.Link href="/home">Telemedicine</Footer.Link>
                 <Footer.Link href="#">Journey</Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -44,7 +43,7 @@ const Foot = () => {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between font-serif">
-          <Footer.Copyright href="#" by="MedMate™" year={2024} />
+          <Footer.Copyright href="/home" by="Telemedicine™" year={new Date().getFullYear()} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />
